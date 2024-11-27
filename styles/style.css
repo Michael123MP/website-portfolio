@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1ffbd;
+}
+
+.sertif {
+    width: 100%;
+    height: 400px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.experiences {
+    text-color: black;
+}
+
+h2 {
+    color: black;
+}
+h3 {
+    color: white;
+}
+
+h4 {
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2e6;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: cover;
+}
+
+
+.profile-image {
+    width: 25%;
+    max-height: 300px;
+    max-weight: 20px;
+}
+
+.profile img {
+    width: 200px;
+    align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 100px;
+    background-color: #6fc276;
+    text-align: center;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    background-color:#90ee90;
+    position: sticky;
+    justify-content: space-between;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#content {
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+aside {
+    flex: 1;
+}
+
+header {
+    display: inline;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap;
+    }
+
+    main aside {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    main aside {
+        align-self: stretch;
+    }
+}
+
+.photo-1{
+    width: 100%;
+    box-shadow: 0px 5px 8px rgba(0,0,0,.3);
+    animation: animate 10s infinite;
+}
+
+@keyframes animate{
+    20% {
+        background: "assets/image/ja berasal dari Jakarta sekitarnya. Selain menjadi kota wisata belanja, kotava.png";
+
+    }
+}
+
+.btn {
+    padding: 10px 80%;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: green;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-btn {
+    font-size: 20px;
+    font-weight: bold;
+    background: green;
+    width: 30px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-btn:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.project-btn:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+td {
+    text-align: center;
+}
